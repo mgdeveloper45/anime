@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Anime</title>
+</head>
+<body>
+    <nav id="navi">
+        <div id="heading">
+            <h1>Anime</h1>
+        </div>
+        <div id="input-container">
+            <input type="text" id="search-term">
+            <div id="button">
+                <button>Search</button>
+            </div>
+        </div>
+        <div id="favs">
+            <h3 class="fav-icon">Favorites</h3>
+            <!-- <img src="images/icons8-favourites-32.png" alt="favicon" class="fav-icon">     -->
+        </div>  
+    </nav>
+
+    <div id="single-anime"></div>
+    <div id="favorites-container"></div>
+    <div id="anime-info"></div>
+    <div id="trending-container"></div>
+    <div id="category-container"></div>
+
+
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+*{
+    margin: auto;
+}
+#navi {
+    min-height: 15vh;
+	min-width: 100vw;
+	background-color: lightgray;
+    margin-bottom: 20px;
+	z-index: 1;
+	position: sticky;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+h1 {
+    font-weight: 900;
+	font-size: 56px;
+	margin: 0;
+	padding: 0 150px 0 0;
+}
+#favs {
+    cursor: pointer;
+}
+#input-container,#button {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    background-color: white;
+    border-radius: 15px;
+}
+input,button{
+    font-size: 20px;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+}
+.card-container {
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+.category-title {
+    color: red;
+    margin: 20px;
+}
+.anime-card {
+    height: 350px;
+    width: 200px;
+    background-color: lightgray;
+    border: 1px solid;
+    box-shadow: 5px 10px 8px #888888;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.card>img { 
+    height: 200px;
+    width: 175px;
+    padding: 5px 0 15px 0;
+    display:block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.trending-card-container,.favorite-card-container {
+    display: flex;
+    justify-content: space-around;
+}
+.trending-title {
+    margin: 15px;
+}
+.trending-card,.favorite-card {
+    height: 400px;
+    width: 220px;
+    background-color: lightgray;
+    border: 1px solid;
+    box-shadow: 5px 10px 8px #888888;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+#favorites-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.favorite-card {
+    height: 450px;
+    width: 280px;
+}
+.trending-card>img,.favorite-card>img {
+    height: 220px;
+    width: 175px;
+}
+#single-anime {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.single-anime-container {
+    height: 600px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.single-card {
+    height: 550px;
+    width: 30vw;
+    background-color: lightgray;
+    border: 1px solid;
+    box-shadow: 5px 10px 8px #888888;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.single-card>img {
+    height: 350px;
+    width: 250px;
+}
+.info-button {
+    height: 25px;
+    width: 65px;
+}
+#anime-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.info-container {
+    border: 1px solid;
+    box-shadow: 5px 10px 8px #888888;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+.info-card {
+    height: 1200px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.info-card>img {
+    height: 400px;
+    width: 350px;
+}
+.info-ratings {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+.info-desc {
+    padding: 15px;
+    text-overflow: ellipsis;
+}
+.options{
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+.options>button {
+    height: 40px;
+    width: 40px;
+}
+#close>button{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+#add>button {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+#dte-btn {
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+}

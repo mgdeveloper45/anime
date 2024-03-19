@@ -1,0 +1,49 @@
+Anime Catalog Web Application
+This is a full stack web application that allows users to browse a catalog of anime titles, view details about each anime, watch movie trailers related to the anime, and save selected anime to a SQL database.
+
+Features
+Browse Anime Catalog: Users can browse through a catalog of anime titles fetched from an Anime API.
+View Anime Details: Users can click on an anime title to view more details about the selected anime, including its synopsis, release date, genre, and rating.
+Watch Movie Trailers: Users can watch movie trailers related to the selected anime directly within the application.
+Save Favorite Anime: Users can save their favorite anime titles to a SQL database by clicking on the "Save" button.
+Technologies Used
+Frontend: HTML, CSS, JavaScript
+Backend: Node.js, Express.js
+Database: SQL (MySQL, PostgreSQL, etc.)
+External API: Anime API (e.g., MyAnimeList API, AniList API)
+Additional Libraries: Axios (for making HTTP requests), Bootstrap (for styling)
+
+Installation
+Clone the repository:
+bash
+
+git clone https://github.com/your-username/anime-catalog.git
+Navigate to the project directory:
+bash
+
+cd anime-catalog
+Install dependencies:
+
+npm install
+Set up the database:
+
+Create a SQL database to store the favorite anime titles.
+Update the database configuration in the config/db.js file.
+Set up API access:
+
+Sign up for an account and obtain API credentials from the Anime API provider.
+Update the API configuration in the config/api.js file.
+Start the server:
+
+sql
+
+npm start
+Open your web browser and navigate to http://localhost:4001 to access the application.
+Usage
+Browse Anime Catalog: Explore the list of anime titles displayed on the homepage.
+View Anime Details: Click on an anime title to view more details about the selected anime.
+Watch Movie Trailers: Click on the "Watch Trailer" button to watch movie trailers related to the selected anime.
+Save Favorite Anime: Click on the "Save" button to save the selected anime to your favorites list.
+Credits
+Anime API: [Insert Anime API Provider Name and Link]
+Movie Trailer API: [Insert Movie Trailer API Provider Name and Link]
